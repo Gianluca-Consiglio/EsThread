@@ -12,6 +12,7 @@ package campane;
 public class DinDonDan {
 
     /**
+     * Il programma stampa 3 volte "din","don","dan".
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {

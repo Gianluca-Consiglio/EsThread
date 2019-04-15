@@ -6,13 +6,17 @@
 package campane;
 
 /**
- *
- * @author gian
+ * Thread che stampa una stringa per un certo numero di volte
+ * @author Gianluca Consiglio
  */
 public class Campana implements Runnable{
     String suono;
     int volte;
-    
+    /**
+     * Costruttore. setta la stringa da stampare e il numero di volte.
+     * @param suono stringa da spampare
+     * @param volte ripetizioni
+     */
     Campana(String suono, int volte){
         this.suono = suono;
         this.volte = volte;

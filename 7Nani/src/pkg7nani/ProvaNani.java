@@ -12,6 +12,8 @@ package pkg7nani;
 public class ProvaNani {
 
     /**
+     * main del programma che inizializza due oggetti {@link ContaINani}
+     * e li esegue uno alla volta.
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {
